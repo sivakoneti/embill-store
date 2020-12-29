@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Nutrilite™ Twist Tubes 2GO™ – Immunity Health - Strawberry Kiwi",
+    "id": "Nutrilite Twist Tubes 2GO – Immunity Health - Strawberry Kiwi",
+    "description": "A convenient and refreshing concentrated liquid drink mix that provides antioxidant support for your immune system.",
+    "price": "15.00",
+    "image": "/images/twist.jpg"
+  },
+  {
+    "title": "Nutrilite™ Women’s Pack",
+    "id": "Nutrilite™ Women’s Pack",
+    "description": "Nourish your body from the inside out with better daily nutrition to help you look and feel your best. Foundational nutrition designed for women.",
+    "price": "38.00",
+    "image": "/images/womenpack.jpg"
+  },
+  {
+    "title": "Dish Drops™ Dishwashing Liquid - Original Scent",
+    "id": "Dish Drops - Dishwashing Liquid",
+    "description": "One drop cleans a lot. When your dishes are covered with hard-to-get-off grease and gunk, use a drop or two of Amway Home™ Dish Drops™ Dishwashing Liquid. Plates and cups will get cleaner, sooner, so you can get back to doing everything else on your to-do list.",
+    "price": "14.25",
+    "image": "/images/dishwashing.jpg"
+  },
+  {
+    "title": "Liquid Laundry Detergent - Floral Scent - 4 L",
+    "id": "Liquid Laundry Detergent",
+    "description": "Naturally powers out tough stains. Conquer your laundry days with SA8™ Liquid Laundry Detergent. Its stain-fighting formula and beautiful floral scent work hard to leave your clothes clean and naturally soft. The triple-action concentrated formula helps you use less detergent and contains ingredients that won’t harm your laundry and are safer for the earth.",
+    "price": "35.00",
+    "image": "/images/detergent.jpg"
+  },
+  {
+    "title": "Glister™ Multi-Action Fluoride Toothpaste",
+    "id": "Glister Fluoride Toothpaste",
+    "description": "Brighter, Healthier Smiles – One toothpaste does it all – whitens and polishes teeth, removes stains, fights cavities, removes plaque and gives you minty-fresh breath withregular brushing.",
+    "price": "3.00",
+    "image": "/images/toothpaste-small.jpg"
+  },
+  {
+    "title": "Nutrilite™ Immunity Pack",
+    "id": "Nutrilite Immunity Pack",
+    "description": "Support your immunity and protect your natural defenses so you can be your best and conquer your day. This MyPack is an easy and convenient way to support your immune system. The perfect blend of nature and science, both supplements are made from plants grown on our certified organic farms.",
+    "price": "17.50",
+    "image": "/images/immunity.jpg"
+  },
+  {
+    "title": "Nutrilite™ Vitamin C Extended Release - 60 Tablets",
+    "id": "Nutrilite Vitamin C - 60 Tablets",
+    "description": "Plant-based supplement with 500 mg of vitamin C for all-day immune support. Support your immune system.",
+    "price": "22.60",
+    "image": "/images/vitamin-c.jpg"
+  },
+  {
+    "title": "XS™ Energy Drink - Cranberry-Grape",
+    "id": "Nutrilite™ Women’s Pack",
+    "description": "All of the energy! None of the sugar!. Bursting with a delicious, refreshing cranberry-grape taste, this XS™ Energy Drink is packed with just the right amount of caffeine and B vitamins, yet it doesn’t contain the level of sugar and carbs found in other popular energy drinks.",
+    "price": "22.60",
+    "image": "/images/energydrinkpallet.jpg"
+  },
+  {
+    "title": "Nutrilite™ Men’s Pack",
+    "id": "Nutrilite Men’s Pack",
+    "description": "Convenient, daily supplements to help fill nutrient gaps. Four unique supplements to support a strong heart, clear mind and healthy immune system. Foundational nutrition designed for men.",
+    "price": "38.00",
+    "image": "/images/menpack.jpg"
+  },
+  {
+    "title": "Glister™ Refresher Spray",
+    "id": "Glister Refresher Spray",
+    "description": "Get a minty-fresh, tingly feeling with one quick spray. Non-aerosol formula is sugar free and calorie free.",
+    "price": "00.00",
+    "image": "/images/refresher-spray.jpg"
+  },
+  {
+    "title": "Glister™ Multi-Action Fluoride Toothpaste – Travel Size",
+    "id": "Glister Multi-Action Fluoride Toothpaste – Travel Size",
+    "description": "One toothpaste does it all – whitens and polishes teeth, removes stains, fights cavities, removes plaque and gives you minty-fresh breath with regular brushing.",
+    "price": "00.00",
+    "image": "/images/toothpaste.jpg"
+  },
+  {
+    "title": "Amway Home™ All Fabric Bleach",
+    "id": "Amway Home All Fabric Bleach",
+    "description": "Made with powerful ingredients to get out your worst stains. Whiter Whites, Safe on colors.",
+    "price": "00.00",
+    "image": "/images/all-fabric-bleach.jpg"
+  },
+  {
+    "title": "Nutrilite™ Vitamin D",
+    "id": "Nutrilite Vitamin D",
+    "description": "Supports Strong Bones. Made using a combination of vitamins D3 and D2 that comes from one of nature’s most concentrated botanical sources: mushrooms. Helps your bones absorb calcium with 50 mcg vitamin D and 20 mcg of vitamin K2.",
+    "price": "00.00",
+    "image": "/images/vitamin-d.jpg"
+  },
+  {
+    "title": "Glister™ Multi-Action Oral Rinse",
+    "id": "Glister Multi-Action Oral Rinse",
+    "description": "Save Money and Fight Germs - Concentrated for extra value and effectiveness – Our 2-ounce bottle provides up to one hundred uses. Includes a convenient pump dispenser and measuring cup.",
+    "price": "00.00",
+    "image": "/images/oral-rinse.jpg"
+  },
+  {
+    "title": "Nutrilite™ Immunity Defense Zinc + Holy Basil",
+    "id": "Nutrilite Immunity Defense Zinc",
+    "description": "Support your immune and respiratory system - with a unique combination of five ingredients - Holy Basil, Zinc, Selenium, Copper, and Orange Bioflavonoids!",
+    "price": "00.00",
+    "image": "/images/defense-zinc.jpg"
+  },
+  {
+    "title": "Nutrilite™ Go Shield – Immunity Gummies",
+    "id": "Nutrilite Go Shield – Immunity Gummies",
+    "description": "A blend of elderberry, vitamin C and zinc helps support immunity.",
+    "price": "00.00",
+    "image": "/images/immunity-gummies.jpg"
+  },
+  {
+    "title": "Amway Home™ Scrub Buds™ Scouring Pads",
+    "id": "Amway Home Scrub Buds Scouring Pads",
+    "description": "Long-Lasting, Rust-Free – Made from high-grade stainless steel so they won’t rust or fall apart.",
+    "price": "00.00",
+    "image": "/images/scouring-pads.jpg"
+  },
+  {
+    "title": "Nutrilite™ Twist Tubes 2GO Antioxidant Health – Mango Citrus",
+    "id": "Nutrilite Twist Tubes 2GO Antioxidant Health – Mango Citrus",
+    "description": "An excellent source of Vitamins A & C – Supports a healthy immune system, as well as eye and skin health. Mango Citrus flavored.",
+    "price": "00.00",
+    "image": "/images/antioxidant-health.jpg"
+  },
+  {
+    "title": "Amway Home™ Dish Drops™ Dispenser Bottle",
+    "id": "Amway Home Dish Drops Dispenser Bottle",
+    "description": "One drop cleans a lot. When your dishes are covered with hard-to-get-off grease and gunk, use a drop or two of Amway Home™ Dish Drops™ Dishwashing Liquid. Plates and cups will get cleaner, sooner, so you can get back to doing everything else on your to-do list.",
+    "price": "00.00",
+    "image": "/images/dish-drops-dispenser-bottle.jpg"
+  },
+  {
+    "title": "G&H Nourish+™ Body Wash",
+    "id": "G&H Nourish+ Body Wash",
+    "description": "A naturally inspired body wash that goes beyond cleansing to leave skin moisturized.Hydrate while you cleanse – Goes beyond cleansing to leave your skin feeling healthy and moisturized. Our rich lather rinses cleanly away and helps keep skin calm.",
+    "price": "00.00",
+    "image": "/images/bodywash.jpg"
+  }
+]
