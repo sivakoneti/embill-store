@@ -2,7 +2,7 @@ export default function Nav() {
     return (
         <div>
             <main className="fixed">
-                <nav id="header" className="fixed w-full z-30 top-0 py-1">
+                <nav id="header" className="w-full z-30 top-0 py-1">
                     <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
                         <div className="order-1 md:order-2">
                             <a className="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl "
