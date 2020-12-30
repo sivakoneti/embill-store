@@ -5,8 +5,8 @@ export default function Store() {
             <main className="md:grid md:grid-cols-2">
                 {products.map(product => {
                     return (
-                        <div key={product.id} className="sm:flex rounded-md border border-gray-200 m-4">
-                            <div className="flex-none sm:w-64">
+                        <div key={product.id} className="sm:flex rounded-md border border-gray-200 m-4 relative">
+                            <div className="flex-none sm:w-64 relative">
                                 <img src={product.image} alt={product.title} className="w-full h-full object-center object-contain" />
                             </div>
                             <div className="flex-auto p-6">
