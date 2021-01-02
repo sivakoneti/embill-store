@@ -37,11 +37,11 @@ export default function other_products() {
                                 </div>
                                 <div className="flex-auto p-6">
                                     <div className="flex flex-wrap">
-                                        <Link href={Product.path}>
+                                        <a href={Product.path}>
                                             <h1 className="flex-auto text-xl font-semibold">
                                                 {Product.title}
                                             </h1>
-                                        </Link>
+                                        </a>
                                         <div className="w-full flex-none text-sm font-medium text-gray-500 mt-2">
                                             In stock
                                     </div>
