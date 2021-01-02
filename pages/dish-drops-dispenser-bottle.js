@@ -1,0 +1,39 @@
+import Head from 'next/head'
+import Navbar from '../components/nav'
+import Footer from '../components/footer'
+
+export default function dispenser_bottle() {
+    return (
+        <div className="">
+            <Head>
+                <title>Embill Store - Save Time, Save Money, Everyday!!!</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+
+            <main>
+                <Navbar />
+                <div className="my-8 mt-24">
+                    <div className="container mx-auto px-6">
+                        <div className="md:flex md:items-center">
+                            <div className="w-full h-auto md:w-1/2">
+                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/dish-drops-dispenser-bottle.jpg" alt="Body Wash" />
+                            </div>
+                            <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
+                                <h3 className="uppercase text-lg font-semibold">Amway Home™ Dish Drops™ Dispenser Bottle</h3>
+                                <div className="mt-2">
+                                    <label className="text-2xl">Description</label>
+                                    <div className="mt-1">
+                                        <p className="text-lg mx-2">Refillable dish liquid dispenser for use with Amway Home™ Dish Drops™ Dishwashing Liquid (sold separately).</p>
+                                        <label className="text-2xl">Use Instruction</label>
+                                        <p>Add 1 - 2 pumps (3 - 6 mL) of Dishwashing Liquid to clean a sink full of dishes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <Footer />
+            </main>
+        </div>
+    )
+}
