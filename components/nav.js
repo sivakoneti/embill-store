@@ -6,7 +6,7 @@ export default function Nav() {
                     <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
                         <div className="order-1 md:order-2">
                             <a className="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl "
-                                href="#">
+                                href="/">
                                 <svg className="fill-current text-gray-800 mr-2" xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24">
                                     <path
