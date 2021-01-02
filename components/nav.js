@@ -16,7 +16,8 @@ export default function Nav() {
                 </a>
                         </div>
 
-                        <div className="order-2 md:order-3 flex items-center" id="nav-content">
+                        <div className="snipcart-checkout snipcart-summary order-2 md:order-3 flex items-center" id="nav-content">
+                            (<span className="snipcart-items-count">0</span>)Items
                             <a className="pl-3 inline-block no-underline hover:text-black" href="#">
                                 <svg className="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24">
@@ -26,6 +27,7 @@ export default function Nav() {
                                     <circle cx="17.5" cy="18.5" r="1.5" />
                                 </svg>
                             </a>
+                            <span className="snipcart-total-price">$0.00</span>
 
                         </div>
                     </div>
