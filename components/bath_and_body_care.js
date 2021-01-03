@@ -73,7 +73,7 @@ export default function bath_and_body_care() {
                                             <button className="snipcart-add-item snipcart-checkout w-1/2 h-9 flex items-center justify-center rounded-md bg-black text-white" type="submit"
                                                 data-item-id={Product.id}
                                                 data-item-price={Product.price}
-                                                data-item-url={Product.path}
+                                                data-item-url="/"
                                                 data-item-image={Product.image}
                                                 data-item-name={Product.title}>
                                                 Buy now
@@ -81,7 +81,7 @@ export default function bath_and_body_care() {
                                             <button className="snipcart-add-item w-1/2  h-9 flex items-center justify-center rounded-md border border-gray-300" type="button"
                                                 data-item-id={Product.id}
                                                 data-item-price={Product.price}
-                                                data-item-url={Product.path}
+                                                    data-item-url="/"
                                                 data-item-image={Product.image}
                                                 data-item-name={Product.title}>
                                                 Add to bag
