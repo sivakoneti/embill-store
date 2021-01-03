@@ -1,5 +1,4 @@
 import { lazy } from 'react'
-import Link from 'next/link'
 
 const Body_Wash = lazy(() => import('../pages/body-wash'))
 const Complexion_Bar = lazy(() => import('../pages/nourish-plus-complex-bar'))
@@ -40,7 +39,6 @@ const details = [
         component: Shave_Gel,
     }
 ]
-
 
 export default function bath_and_body_care() {
     return (

@@ -2,12 +2,20 @@ import Head from 'next/head'
 import Navbar from '../components/nav'
 import Footer from '../components/footer'
 
+const details = {
+    title: "G&H Soothe+ For Men After Shave Balm",
+    id: "G&H Soothe+ For Men After Shave Balm",
+    price: "13.25",
+    image: "/images/G&H-soothe+-for-men-after-shave-balm.jpg"
+}
+
 export default function shave_balm() {
     return (
         <div className="">
             <Head>
                 <title>Embill Store - Save Time, Save Money, Everyday!!!</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
             </Head>
 
             <main>
@@ -34,6 +42,26 @@ export default function shave_balm() {
                                         <p>Children under 8 years of age, pregnant women and nursing mothers, or anyone with a medical condition should consult with a physician before taking this product. Keep out of reach of children. Do not consume without mixing in water.</p>
                                         <label className="text-2xl">Use Instruction</label>
                                         <p>Apply to clean, dry face after shaving. Massage into skin.</p>
+                                        <div className="flex space-x-3 mb-4 text-sm font-medium mt-4">
+                                            <div className="flex-auto flex space-x-4">
+                                                <button className="snipcart-add-item snipcart-checkout w-1/2 h-9 flex items-center justify-center rounded-md bg-black text-white" type="submit"
+                                                        data-item-id={details.id}
+                                                        data-item-price={details.price}
+                                                        data-item-url="/"
+                                                        data-item-image={details.image}
+                                                        data-item-name={details.title}>
+                                                    Buy now
+                                                </button>
+                                                <button className="snipcart-add-item w-1/2  h-9 flex items-center justify-center rounded-md border border-gray-300" type="button"
+                                                        data-item-id={details.id}
+                                                        data-item-price={details.price}
+                                                        data-item-url="/"
+                                                        data-item-image={details.image}
+                                                        data-item-name={details.title}>
+                                                    Add to bag
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -42,6 +70,14 @@ export default function shave_balm() {
                 </div>
                 <Footer />
             </main>
+            <script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
+            <div
+                id="snipcart"
+                data-config-add-product-behavior="none"
+                data-config-modal-style="side"
+                data-api-key="NGNhY2MzOTEtYzdiMS00ODk0LWI5NzMtNTgyMjFiZGFlZmVhNjM3MzYwNjg4OTAxNTYxMDAy"
+                hidden>
+            </div>
         </div>
     )
 }

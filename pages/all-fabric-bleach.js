@@ -46,11 +46,7 @@ export default function All_Fabric_Bleach() {
                                         <label className="text-2xl">Advisories</label>
                                         <p>Contains sodium percarbonate. Avoid contact with eyes and prolonged contact with skin. Keep out of reach of children.</p>
                                         <label className="text-2xl">Use Instruction</label>
-                                        <p>Add 1 scoop (30 mL) with your detergent to each load.
-
-                                        Do not use on wool or silk, or with chlorine bleach.
-
-To presoak: Dissolve one scoop (30 mL) per load and soak 30 minutes or longer, then wash as normal.</p>
+                                        <p>Add 1 scoop (30 mL) with your detergent to each load. Do not use on wool or silk, or with chlorine bleach. To presoak: Dissolve one scoop (30 mL) per load and soak 30 minutes or longer, then wash as normal.</p>
                                         <div className="flex space-x-3 mb-4 text-sm font-medium mt-4">
                                             <div className="flex-auto flex space-x-4">
                                                 <button className="snipcart-add-item snipcart-checkout w-1/2 h-9 flex items-center justify-center rounded-md bg-black text-white" type="submit"
