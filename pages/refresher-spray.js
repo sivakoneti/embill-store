@@ -2,12 +2,20 @@ import Head from 'next/head'
 import Navbar from '../components/nav'
 import Footer from '../components/footer'
 
+const details = {
+    title: "Glister™ Refresher Spray",
+    id: "Glister Refresher Spray",
+    price: "5.15",
+    image: "/images/refresher-spray.jpg"
+}
+
 export default function refresher_spray() {
     return (
         <div className="">
             <Head>
                 <title>Embill Store - Save Time, Save Money, Everyday!!!</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
             </Head>
 
             <main>
@@ -33,6 +41,26 @@ export default function refresher_spray() {
                                         <p>Contents under pressure. Do not puncture or incinerate container. Do not store at temperatures over 50°C/120°F. Avoid spraying in eyes; if this happens, rinse eyes with water. Keep out of reach of children except under adult supervision.</p>
                                         <label className="text-2xl">Use Instruction</label>
                                         <p>Hold upright and spray directly into mouth.</p>
+                                        <div className="flex space-x-3 mb-4 text-sm font-medium mt-4">
+                                            <div className="flex-auto flex space-x-4">
+                                                <button className="snipcart-add-item snipcart-checkout w-1/2 h-9 flex items-center justify-center rounded-md bg-black text-white" type="submit"
+                                                        data-item-id={details.id}
+                                                        data-item-price={details.price}
+                                                        data-item-url="/"
+                                                        data-item-image={details.image}
+                                                        data-item-name={details.title}>
+                                                    Buy now
+                                                </button>
+                                                <button className="snipcart-add-item w-1/2  h-9 flex items-center justify-center rounded-md border border-gray-300" type="button"
+                                                        data-item-id={details.id}
+                                                        data-item-price={details.price}
+                                                        data-item-url="/"
+                                                        data-item-image={details.image}
+                                                        data-item-name={details.title}>
+                                                    Add to bag
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -41,6 +69,14 @@ export default function refresher_spray() {
                 </div>
                 <Footer />
             </main>
+            <script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
+            <div
+                id="snipcart"
+                data-config-add-product-behavior="none"
+                data-config-modal-style="side"
+                data-api-key="NGNhY2MzOTEtYzdiMS00ODk0LWI5NzMtNTgyMjFiZGFlZmVhNjM3MzYwNjg4OTAxNTYxMDAy"
+                hidden>
+            </div>
         </div>
     )
 }

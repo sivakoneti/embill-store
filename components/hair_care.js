@@ -1,5 +1,4 @@
 import { lazy } from 'react'
-import Link from 'next/link'
 
 const Men_Hair_Putty = lazy(() => import('../pages/body-blends-for-men-hair-putty'))
 const Shampoo_and_Conditioner_280mL = lazy(() => import('../pages/two-in-one-shampoo-and-conditioner-280mL'))

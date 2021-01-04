@@ -2,12 +2,20 @@ import Head from 'next/head'
 import Navbar from '../components/nav'
 import Footer from '../components/footer'
 
+const details = {
+    title: "Satinique Anti-Hairfall Conditioner - 280mL",
+    id: "Satinique Anti-Hairfall Conditioner - 280mL",
+    price: "9.75",
+    image: "/images/satinique-anti-hairfall-conditioner-280mL.jpg"
+}
+
 export default function hairfall_conditioner_280mL() {
     return (
         <div className="">
             <Head>
                 <title>Embill Store - Save Time, Save Money, Everyday!!!</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
             </Head>
 
             <main>
@@ -39,6 +47,14 @@ export default function hairfall_conditioner_280mL() {
                 </div>
                 <Footer />
             </main>
+            <script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
+            <div
+                id="snipcart"
+                data-config-add-product-behavior="none"
+                data-config-modal-style="side"
+                data-api-key="NGNhY2MzOTEtYzdiMS00ODk0LWI5NzMtNTgyMjFiZGFlZmVhNjM3MzYwNjg4OTAxNTYxMDAy"
+                hidden>
+            </div>
         </div>
     )
 }
