@@ -1,5 +1,4 @@
 import { lazy } from 'react'
-import Link from 'next/link'
 
 const Toner = lazy(() => import('../pages/fresh-toner'))
 const Brush_Set = lazy(() => import('../pages/brush-set'))

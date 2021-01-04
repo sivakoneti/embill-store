@@ -1,5 +1,4 @@
 import { lazy } from 'react'
-import Link from 'next/link'
 
 const Twist = lazy(() => import('../pages/twist'))
 const Women_Pack = lazy(() => import('../pages/women-pack'))
