@@ -27,7 +27,7 @@ export default function Footer() {
                         <p className="text-white px-2 pt-1.5">Built With
                         <svg fill="#e53e3e" viewBox="0 0 24 24" className="w-5 h-5 mx-1 pt-px text-red-600 inline-block" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                            </svg>by <a href="https://ofori-james-ayerakwa.me" className="pl-1 font-bold underline" target="_blank">Ofori James Ayerakwa</a>
+                            </svg>by <a href="https://ofori-james-ayerakwa.me" className="pl-1 font-bold underline" target="_blank" rel="noreferrer">Ofori James Ayerakwa</a>
                         </p>
                     </div>
                 </footer>
