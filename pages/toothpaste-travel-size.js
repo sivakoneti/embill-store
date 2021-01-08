@@ -15,6 +15,8 @@ export default function toothpaste_travel() {
             <Head>
                 <title>Embill Store - Save Time, Save Money, Everyday!!!</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="preconnect" href="https://app.snipcart.com" />
+                <link rel="preconnect" href="https://cdn.snipcart.com" />
                 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
             </Head>
 
@@ -44,19 +46,19 @@ export default function toothpaste_travel() {
                                         <div className="flex space-x-3 mb-4 text-sm font-medium mt-4">
                                             <div className="flex-auto flex space-x-4">
                                                 <button className="snipcart-add-item snipcart-checkout w-1/2 h-9 flex items-center justify-center rounded-md bg-black text-white" type="submit"
-                                                        data-item-id={details.id}
-                                                        data-item-price={details.price}
-                                                        data-item-url="/"
-                                                        data-item-image={details.image}
-                                                        data-item-name={details.title}>
+                                                    data-item-id={details.id}
+                                                    data-item-price={details.price}
+                                                    data-item-url="/"
+                                                    data-item-image={details.image}
+                                                    data-item-name={details.title}>
                                                     Buy now
                                                 </button>
                                                 <button className="snipcart-add-item w-1/2  h-9 flex items-center justify-center rounded-md border border-gray-300" type="button"
-                                                        data-item-id={details.id}
-                                                        data-item-price={details.price}
-                                                        data-item-url="/"
-                                                        data-item-image={details.image}
-                                                        data-item-name={details.title}>
+                                                    data-item-id={details.id}
+                                                    data-item-price={details.price}
+                                                    data-item-url="/"
+                                                    data-item-image={details.image}
+                                                    data-item-name={details.title}>
                                                     Add to bag
                                                 </button>
                                             </div>

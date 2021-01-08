@@ -8,6 +8,9 @@ export default function repair_conditioner_280mL() {
             <Head>
                 <title>Embill Store - Save Time, Save Money, Everyday!!!</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="preconnect" href="https://app.snipcart.com" />
+                <link rel="preconnect" href="https://cdn.snipcart.com" />
+                <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
             </Head>
 
             <main>
@@ -39,6 +42,14 @@ export default function repair_conditioner_280mL() {
                 </div>
                 <Footer />
             </main>
+            <script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
+            <div
+                id="snipcart"
+                data-config-add-product-behavior="none"
+                data-config-modal-style="side"
+                data-api-key="NGNhY2MzOTEtYzdiMS00ODk0LWI5NzMtNTgyMjFiZGFlZmVhNjM3MzYwNjg4OTAxNTYxMDAy"
+                hidden>
+            </div>
         </div>
     )
 }

@@ -17,6 +17,8 @@ export default function Home() {
       <Head>
         <title>Embill Store - Save Time, Save Money, Everyday!!!</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://app.snipcart.com" />
+        <link rel="preconnect" href="https://cdn.snipcart.com" />
         <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
         <link
           rel="stylesheet"
@@ -32,11 +34,11 @@ export default function Home() {
         <Bath_And_Body_Care />
         <Dish_And_Laundry />
         <Fragrance />
+        <Vitamins_And_Supplements />
         <Hair_Care />
         <Oral_Care />
         <Other_Products />
         <Skin_And_Make_Up />
-        <Vitamins_And_Supplements />
         <Footer />
       </main>
       <script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
