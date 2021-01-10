@@ -6,7 +6,7 @@ const details = {
     title: "Artistry Flora Chic Eau de Parfum Spray",
     id: "Artistry Flora Chic Eau de Parfum Spray",
     price: "70.00",
-    image: "/images/artistry-flora-chic-spray.jpg"
+    image: "/images/artistry-flora-chic-spray.webp"
 }
 
 export default function Floral_chic_spray() {
@@ -26,7 +26,7 @@ export default function Floral_chic_spray() {
                     <div className="container mx-auto px-6">
                         <div className="md:flex md:items-center">
                             <div className="w-full h-auto md:w-1/2">
-                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/artistry-flora-chic-spray.jpg" alt="Body Wash" />
+                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/artistry-flora-chic-spray.webp" alt="Body Wash" />
                             </div>
                             <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
                                 <h3 className="uppercase text-lg font-semibold">Artistry Flora Chic Eau de Parfum Spray</h3>
@@ -45,19 +45,19 @@ Inspired by Parc de Bagatelle, a historic French garden, Artistry Flora Chic™ 
                                         <div className="flex space-x-3 mb-4 text-sm font-medium mt-4">
                                             <div className="flex-auto flex space-x-4">
                                                 <button className="snipcart-add-item snipcart-checkout w-1/2 h-9 flex items-center justify-center rounded-md bg-black text-white" type="submit"
-                                                        data-item-id={details.id}
-                                                        data-item-price={details.price}
-                                                        data-item-url="/"
-                                                        data-item-image={details.image}
-                                                        data-item-name={details.title}>
+                                                    data-item-id={details.id}
+                                                    data-item-price={details.price}
+                                                    data-item-url="/"
+                                                    data-item-image={details.image}
+                                                    data-item-name={details.title}>
                                                     Buy now
                                                 </button>
                                                 <button className="snipcart-add-item w-1/2  h-9 flex items-center justify-center rounded-md border border-gray-300" type="button"
-                                                        data-item-id={details.id}
-                                                        data-item-price={details.price}
-                                                        data-item-url="/"
-                                                        data-item-image={details.image}
-                                                        data-item-name={details.title}>
+                                                    data-item-id={details.id}
+                                                    data-item-price={details.price}
+                                                    data-item-url="/"
+                                                    data-item-image={details.image}
+                                                    data-item-name={details.title}>
                                                     Add to bag
                                                 </button>
                                             </div>

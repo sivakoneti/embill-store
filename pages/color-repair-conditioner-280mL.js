@@ -19,7 +19,7 @@ export default function repair_conditioner_280mL() {
                     <div className="container mx-auto px-6">
                         <div className="md:flex md:items-center">
                             <div className="w-full h-auto md:w-1/2">
-                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/satinique-color-repair-conditioner-280mL.jpg" alt="Body Wash" />
+                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/satinique-color-repair-conditioner-280mL.webp" alt="Body Wash" />
                             </div>
                             <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
                                 <h3 className="uppercase text-lg font-semibold">Satinique Color Repair Conditioner - 280mL</h3>

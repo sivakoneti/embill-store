@@ -6,7 +6,7 @@ const details = {
     title: "Artistry Brush Set",
     id: "Artistry Brush Set",
     price: "62.60",
-    image: "/images/artistry-brush-set.jpg"
+    image: "/images/artistry-brush-set.webp"
 }
 
 export default function brush_Set() {
@@ -26,7 +26,7 @@ export default function brush_Set() {
                     <div className="container mx-auto px-6">
                         <div className="md:flex md:items-center">
                             <div className="w-full h-auto md:w-1/2">
-                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/artistry-brush-set.jpg" alt="Body Wash" />
+                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/artistry-brush-set.webp" alt="Body Wash" />
                             </div>
                             <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
                                 <h3 className="uppercase text-lg font-semibold">Artistry Brush Set</h3>

@@ -9,7 +9,7 @@ const details = [
         title: "XS™ Energy Drink - Cranberry-Grape",
         id: "XS™ Energy Drink - Cranberry-Grape",
         price: "22.60",
-        image: "/images/energydrinkpallet.jpg",
+        image: "/images/energydrinkpallet.webp",
         path: '/energy-drink-pallet',
         component: Other_Products_drink,
     },
@@ -17,7 +17,7 @@ const details = [
         title: "G&H Protect+ Advanced Hand Sanitizer With Pro-Vitamin B5",
         id: "G&H Protect+ Advanced Hand Sanitizer With Pro-Vitamin B5",
         price: "10.00",
-        image: "/images/G&H-protect+-hand-sanitizer.jpg",
+        image: "/images/G&H-protect+-hand-sanitizer.webp",
         path: '/protect-plus-hand-sanitizer',
         component: Other_Products_sanitizer,
     }

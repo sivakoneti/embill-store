@@ -6,7 +6,7 @@ const details = {
     title: "Nutrilite™ Women’s Pack",
     id: "Nutrilite™ Women’s Pack",
     price: "38.00",
-    image: "/images/womenpack.jpg"
+    image: "/images/womenpack.webp"
 }
 
 export default function women_pack() {
@@ -26,7 +26,7 @@ export default function women_pack() {
                     <div className="container mx-auto px-6">
                         <div className="md:flex md:items-center">
                             <div className="w-full h-auto md:w-1/2">
-                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/womenpack.jpg" alt="Body Wash" />
+                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/womenpack.webp" alt="Body Wash" />
                             </div>
                             <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
                                 <h3 className="uppercase text-lg font-semibold">Nutrilite™ Women’s Pack</h3>

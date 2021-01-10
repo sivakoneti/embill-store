@@ -5,28 +5,28 @@ export default function carousel() {
             <Carousel.Item>
                 <img
                     className="d-block w-screen h-1/2"
-                    src="/images/carousel1.jpg"
+                    src="/images/carousel1.webp"
                     alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-screen h-1/2"
-                    src="/images/carousel2.jpg"
+                    src="/images/carousel2.webp"
                     alt="Third slide"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-screen h-1/2"
-                    src="/images/carousel3.jpg"
+                    src="/images/carousel3.webp"
                     alt="Third slide"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-screen h-1/2"
-                    src="/images/carousel4.jpg"
+                    src="/images/carousel4.webp"
                     alt="Fourth slide"
                 />
             </Carousel.Item>

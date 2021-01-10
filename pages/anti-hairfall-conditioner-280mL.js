@@ -6,7 +6,7 @@ const details = {
     title: "Satinique Anti-Hairfall Conditioner - 280mL",
     id: "Satinique Anti-Hairfall Conditioner - 280mL",
     price: "9.75",
-    image: "/images/satinique-anti-hairfall-conditioner-280mL.jpg"
+    image: "/images/satinique-anti-hairfall-conditioner-280mL.webp"
 }
 
 export default function hairfall_conditioner_280mL() {
@@ -26,7 +26,7 @@ export default function hairfall_conditioner_280mL() {
                     <div className="container mx-auto px-6">
                         <div className="md:flex md:items-center">
                             <div className="w-full h-auto md:w-1/2">
-                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/satinique-anti-hairfall-conditioner-280mL.jpg" alt="Body Wash" />
+                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/satinique-anti-hairfall-conditioner-280mL.webp" alt="Body Wash" />
                             </div>
                             <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
                                 <h3 className="uppercase text-lg font-semibold">Satinique Anti-Hairfall Conditioner - 280mL</h3>

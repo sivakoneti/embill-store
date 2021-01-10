@@ -7,7 +7,7 @@ const details = {
     title: "Amway Home™ Scrub Buds™ Scouring Pads",
     id: "Amway Home Scrub Buds Scouring Pads",
     price: "4.50",
-    image: "/images/scouring-pads.jpg"
+    image: "/images/scouring-pads.webp"
 }
 
 export default function scouring_pads() {
@@ -27,7 +27,7 @@ export default function scouring_pads() {
                     <div className="container mx-auto px-6">
                         <div className="md:flex md:items-center">
                             <div className="w-full h-auto md:w-1/2">
-                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/scouring-pads.jpg" alt="Body Wash" />
+                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/scouring-pads.webp" alt="Body Wash" />
                             </div>
                             <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
                                 <h3 className="uppercase text-lg font-semibold">Amway Home™ Scrub Buds™ Scouring Pads</h3>
@@ -46,19 +46,19 @@ export default function scouring_pads() {
                                         <div className="flex space-x-3 mb-4 text-sm font-medium mt-4">
                                             <div className="flex-auto flex space-x-4">
                                                 <button className="snipcart-add-item snipcart-checkout w-1/2 h-9 flex items-center justify-center rounded-md bg-black text-white" type="submit"
-                                                        data-item-id={details.id}
-                                                        data-item-price={details.price}
-                                                        data-item-url="/"
-                                                        data-item-image={details.image}
-                                                        data-item-name={details.title}>
+                                                    data-item-id={details.id}
+                                                    data-item-price={details.price}
+                                                    data-item-url="/"
+                                                    data-item-image={details.image}
+                                                    data-item-name={details.title}>
                                                     Buy now
                                                 </button>
                                                 <button className="snipcart-add-item w-1/2  h-9 flex items-center justify-center rounded-md border border-gray-300" type="button"
-                                                        data-item-id={details.id}
-                                                        data-item-price={details.price}
-                                                        data-item-url="/"
-                                                        data-item-image={details.image}
-                                                        data-item-name={details.title}>
+                                                    data-item-id={details.id}
+                                                    data-item-price={details.price}
+                                                    data-item-url="/"
+                                                    data-item-image={details.image}
+                                                    data-item-name={details.title}>
                                                     Add to bag
                                                 </button>
                                             </div>

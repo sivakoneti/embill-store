@@ -6,7 +6,7 @@ const details = {
     title: "Glister™ Multi-Action Fluoride Toothpaste – Travel Size",
     id: "Glister Multi-Action Fluoride Toothpaste – Travel Size",
     price: "6.00",
-    image: "/images/toothpaste.jpg"
+    image: "/images/toothpaste.webp"
 }
 
 export default function toothpaste_travel() {
@@ -26,7 +26,7 @@ export default function toothpaste_travel() {
                     <div className="container mx-auto px-6">
                         <div className="md:flex md:items-center">
                             <div className="w-full h-auto md:w-1/2">
-                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/toothpaste.jpg" alt="Body Wash" />
+                                <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src="/images/toothpaste.webp" alt="Body Wash" />
                             </div>
                             <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
                                 <h3 className="uppercase text-lg font-semibold">Glister™ Multi-Action Fluoride Toothpaste – Travel Size</h3>
