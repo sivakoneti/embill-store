@@ -5,7 +5,7 @@ export default function Footer() {
                 <footer className="bg-black w-full py-6 px-4">
                     <div className="text-center sm:flex items-center justify-between my-2 sm:text-lg">
                         <div className="flex flex-col sm:flex-row">
-                            <p className="text-white">&copy; {new Date().getDate()} Embill Inc.</p>
+                            <p className="text-white">&copy; {new Date().getFullYear()} Embill Inc.</p>
                             <div className="flex items-center mx-auto my-6 sm:my-0 ">
                                 <a href="#">
                                     <svg className="h-6 w-6 fill-current text-white mr-6 md:ml-32 lg:ml-80" viewBox="0 0 512 512">
